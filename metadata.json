@@ -1,0 +1,5 @@
+{
+  "name": "Free Fall Simulator",
+  "description": "An interactive physics simulation demonstrating free fall motion with air resistance. Visualizes the effects of mass, drag coefficient, and diameter on falling objects.",
+  "requestFramePermissions": []
+}

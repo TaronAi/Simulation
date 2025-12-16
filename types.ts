@@ -1,3 +1,4 @@
+
 export interface SimulationParams {
   mass: number;        // kg
   height: number;      // m
@@ -5,6 +6,9 @@ export interface SimulationParams {
   airDensity: number;  // kg/m^3
   diameter: number;    // m
   gravity: number;     // m/s^2
+  objType?: string;    // 'ball' | 'watermelon' | 'egg'
+  timeScale?: number;  // Simulation speed multiplier
+  theme?: string;      // 'sky' | 'space' | 'sunset' | 'mars'
 }
 
 export interface SimulationState {
